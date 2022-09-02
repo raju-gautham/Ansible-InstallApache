@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  user: ansible
+  user: ubuntu
   become: yes
   become_method: sudo
   become_user: root
